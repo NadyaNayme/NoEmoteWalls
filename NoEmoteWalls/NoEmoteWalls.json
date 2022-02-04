@@ -1,7 +1,8 @@
 {
   "Author": "Nana",
   "Name": "No Emote Walls",
-  "InternalName": "noEmoteWalls",
+  "InternalName": "NoEmoteWalls",
+  "AssemblyVersion": "0.0.0.2",
   "Punchline": "Filter out emote spam. Except your emote spam. Your emote spam is special.",
   "Description": "Filters out emote chat messages caused by other players unless the player is targeting you. Works for EN only.",
   "ApplicableVersion": "any",
@@ -13,5 +14,5 @@
     "Spam"
   ],
   "CategoryTags": [ "Social" ],
-  "IconUrl": "https://github.com/NadyaNayme/NoEmoteWalls/blob/master/images/icon.png"
+  "IconUrl": "https://raw.githubusercontent.com/NadyaNayme/NoEmoteWalls/master/images/icon.png"
 }

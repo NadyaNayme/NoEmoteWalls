@@ -1,0 +1,17 @@
+{
+  "Author": "Nana",
+  "Name": "No Emote Walls",
+  "InternalName": "noEmoteWalls",
+  "Punchline": "Filter out emote spam. Except your emote spam. Your emote spam is special.",
+  "Description": "Filters out emote chat messages caused by other players unless the player is targeting you. Works for EN only.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NadyaNayme/NoEmoteWalls",
+  "Tags": [
+    "Chat",
+    "Filter",
+    "Emote",
+    "Spam"
+  ],
+  "CategoryTags": [ "Social" ],
+  "IconUrl": "https://github.com/NadyaNayme/NoEmoteWalls/images/icon.png"
+}

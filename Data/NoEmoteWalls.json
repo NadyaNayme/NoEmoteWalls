@@ -1,0 +1,11 @@
+{
+  "Author": "Nana",
+  "Name": "No Emote Walls",
+  "Punchline": "Filter out emote spam.",
+  "Description": "Filter out emote spam among other players. \n /noemote for configuration",
+  "InternalName": "noEmoteWalls",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "chat"
+  ]
+}

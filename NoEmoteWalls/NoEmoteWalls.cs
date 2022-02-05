@@ -58,15 +58,19 @@ namespace NoEmoteWalls
             {
                 return;
             }
-            isHandled |= KillEmoteLines(type, message.TextValue);
+            bool isEmoteType = type is XivChatType.StandardEmote;
+            if (isEmoteType)
+            {
+                isHandled |= KillEmoteLines(type, message.TextValue);
+            }
         }
 
-        public bool KillEmoteLines(XivChatType type, string input)
+        private bool KillEmoteLines(XivChatType type, string input)
         {
             try
             {
-                bool isEmoteType = type is XivChatType.StandardEmote;
-                if (isEmoteType && (input.ToLower().Contains("you") == true || input.ToLower().Contains("your") == true))
+                bool targetedEmote = input.ToLower().Contains("you") == true || input.ToLower().Contains("your") == true;
+                if (targetedEmote)
                 {
                     return false;
                 } else
@@ -76,7 +80,7 @@ namespace NoEmoteWalls
             }
             catch (Exception)
             {
-                return false;
+                return true;
             }
         }
        

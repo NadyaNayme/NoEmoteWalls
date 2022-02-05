@@ -1,22 +1,25 @@
 {
   "Author": "Nana",
-  "Name": "No Emote Walls",
-  "InternalName": "NoEmoteWalls",
-  "AssemblyVersion": "0.0.0.3",
+  "Name": "NoEmoteWalls",
+  "Punchline": "Filter out emote spam. Except your emote spam. Your emote spam is special.",
   "Description": "Filters out emote chat messages caused by other players unless the player is targeting you. Works for EN only.",
-  "ApplicableVersion": "any",
+  "InternalName": "NoEmoteWalls",
+  "AssemblyVersion": "0.0.0.4",
   "RepoUrl": "https://github.com/NadyaNayme/NoEmoteWalls",
-  "Tags": [
-    "Chat",
-    "Filter",
-    "Emote",
-    "Spam"
-  ],
-  "CategoryTags": [
-    "Social"
+  "ApplicableVersion": "any",
+   "Tags": [
+   "Chat",
+   "Filter",
+   "Emote",
+   "Spam"
   ],
   "DalamudApiLevel": 5,
-  "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/NadyaNayme/NoEmoteWalls/master/images/icon.png",
-  "Punchline": "Filter out emote spam. Except your emote spam. Your emote spam is special."
+  "IsHide": "False",
+  "IsTestingExclusive": "False",
+  "LastUpdated": 1644076610,
+  "DownloadCount": 0,
+  "DownloadLinkInstall": "https://github.com/NadyaNayme/NoEmoteWalls/releases/download/0.0.0.4/latest.zip",
+  "DownloadLinkTesting": "https://github.com/NadyaNayme/NoEmoteWalls/releases/download/0.0.0.4/latest.zip",
+  "DownloadLinkUpdate": "https://github.com/NadyaNayme/NoEmoteWalls/releases/download/0.0.0.4/latest.zip"
 }

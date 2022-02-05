@@ -2,7 +2,7 @@
   "Author": "Nana",
   "Name": "No Emote Walls",
   "InternalName": "NoEmoteWalls",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "1.0.0.0",
   "Punchline": "Filter out emote spam. Except your emote spam. Your emote spam is special.",
   "Description": "Filters out emote chat messages caused by other players unless the player is targeting you. Works for EN only.",
   "ApplicableVersion": "any",

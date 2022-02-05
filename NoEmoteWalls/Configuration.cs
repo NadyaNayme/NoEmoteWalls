@@ -10,8 +10,6 @@ namespace NoEmoteWalls
         public int Version { get; set; } = 0;
 
         public bool Enabled { get; set; } = true;
-        public bool filterTargetPattern { get; set; } = true;
-        public bool filterNoTargetPattern { get; set; } = true;
 
         // the below exist just to make saving less cumbersome
 

@@ -78,23 +78,6 @@ namespace NoEmoteWalls
                     this.configuration.Enabled = enabled;
                     this.configuration.Save();
                 }
-
-                var filterTargetPattern = this.configuration.filterTargetPattern;
-                if (ImGui.Checkbox("Filter emotes with any target that isn't you.", ref filterTargetPattern))
-                {
-                    this.configuration.filterTargetPattern = filterTargetPattern;
-                    this.configuration.Save();
-                }
-                ImGuiComponents.HelpMarker("Filters emotes that are not targeted at you. (eg. Some User sweeps around Another User)");
-
-                var filterNoTargetPattern = this.configuration.filterNoTargetPattern;
-                if (ImGui.Checkbox("Filters emotes that lack a target.", ref filterNoTargetPattern))
-                {
-                    this.configuration.filterNoTargetPattern = filterNoTargetPattern;
-                    this.configuration.Save();
-                }
-                ImGuiComponents.HelpMarker("Filters text from emotes that aren't used by you and lack a target. (eg. Some User offers a moment of silence)");
-
             }
             ImGui.End();
         }
